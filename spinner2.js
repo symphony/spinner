@@ -1,8 +1,6 @@
-const sentence = "hello there from lighthouse labs";
+const lines = ["|", "/", "-", "\\"];
 const interval = 200;
-const lines = ["|", "/", "-", "\\"]
 let timer = 100;
-
 
 const startSpinner = () => {
   for (let i = 0; i < 9; i++) {
